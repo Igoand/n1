@@ -10,8 +10,9 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
 	width: 600px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
 }
 
 #zegar {
@@ -20,6 +21,7 @@ body {
 	font-size: 70px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: left;
 }
 
 #container {
@@ -31,6 +33,7 @@ body {
 .rectangle {
 	width: 960px;
 	margin: 20px;
+	text-align: center;
 }
 
 .square {
@@ -43,7 +46,12 @@ body {
 	width: 230px;
 	height: 142px;
 	float: left;
-	background-color: #3095f2;
+	background-color: #3095d2;
+	text-align: center;
+}
+
+.tile1:hover {
+	background-color: #2084c2;
 }
 
 .tile2 {
@@ -52,6 +60,11 @@ body {
 	height: 142px;
 	float: left;
 	background-color: #666666;
+	text-align: center;
+}
+
+.tile2:hover {
+	background-color: #555555;
 }
 
 .tile3 {
@@ -59,19 +72,99 @@ body {
 	width: 230px;
 	height: 142px;
 	float: left;
-	background-color: #3c798f;
+	background-color: #009933;
+	text-align: center;
+}
+
+.tile3:hover {
+	background-color: #008822;
 }
 
 .tile4 {
-	width: 480px;
+	width: 460px;
 	margin: 10px;
-	height: 142px;
-	background-color: #ee3252;
+	height: 122px;
+	background-color: #ff4400;
+	text-align: justify;
+	font-style: italic;
+	padding: 10px;
 }
 
 .tile5 {
-	width: 480px;
-	height: 296px;
-	background-color: #fffffe;
+	width: 420px;
+	height: 244px;
+	background-color: #666699;
 	margin: 10px;
+	font-size: 18px;
+	text-align: justify;
+	padding: 30px;
+}
+
+.yt {
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	float: left;
+	background-color: #d94348;
+}
+
+.yt:hover {
+	background-color: #c83237;
+}
+
+.fb {
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	float: left;
+	background-color: #4668b3;
+}
+
+.fb:hover {
+	background-color: #3557a3;
+}
+
+.gp {
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	float: left;
+	background-color: #d95333;
+}
+
+.gp:hover {
+	background-color: #c84222;
+}
+
+.tw {
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	float: left;
+	background-color: #3095d3;
+}
+
+.tw:hover {
+	background-color: #2084c2;
+}
+
+a.tilelink {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+
+a.tilelinkhtml5 {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.socialink {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	height: 142px;
 }
